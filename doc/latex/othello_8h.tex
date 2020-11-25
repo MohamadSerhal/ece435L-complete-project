@@ -1,0 +1,78 @@
+\hypertarget{othello_8h}{}\section{othello.\+h File Reference}
+\label{othello_8h}\index{othello.\+h@{othello.\+h}}
+
+
+Othello\+::\+Othello, constructor
+
+Constructor that sets the initial state of the board and what player starts the game.  
+
+
+{\ttfamily \#include $<$Q\+Object$>$}\newline
+{\ttfamily \#include $<$Q\+Vector$>$}\newline
+{\ttfamily \#include $<$Q\+Text\+Stream$>$}\newline
+Include dependency graph for othello.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classOthello}{Othello}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Othello\+::\+Othello, constructor
+
+Constructor that sets the initial state of the board and what player starts the game. 
+
+Othello\+::print
+
+Prints the state of the board on the console, used for debugging.
+
+Othello\+::winner.
+
+Othello\+::is\+Game\+Over.
+
+Othello\+::play.
+
+Othello\+::can\+Play.
+
+Othello\+::playable\+Cells, returns the coordinates of the cells that are playable.
+
+\begin{DoxyReturn}{Returns}
+Q\+Vector$<$Q\+Pair$<$int, int$>$$>$
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+Checks if the cell at corrdinates (x,y) is available to be played.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+turn
+\end{DoxyReturn}
+Adds a chip to the (x,y) coordinate on the grid.
+
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+Checks if the game is over according to \hyperlink{classOthello}{Othello} rules
+
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+Counts the number of blue and red chips at the end of the game and decides the winner. 

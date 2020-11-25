@@ -1,0 +1,139 @@
+\hypertarget{classGameScene}{}\section{Game\+Scene Class Reference}
+\label{classGameScene}\index{Game\+Scene@{Game\+Scene}}
+
+
+Inheritance diagram for Game\+Scene\+:
+% FIG 0
+
+
+Collaboration diagram for Game\+Scene\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classGameScene_a32a9a3fea03221b8fbaaabb023f10620}\label{classGameScene_a32a9a3fea03221b8fbaaabb023f10620}} 
+void {\bfseries key\+Press\+Event} (Q\+Key\+Event $\ast$event) override
+\item 
+\mbox{\Hypertarget{classGameScene_aec7b74b7ecfb74157d8aea11489e2ad9}\label{classGameScene_aec7b74b7ecfb74157d8aea11489e2ad9}} 
+void {\bfseries setup\+Background} ()
+\item 
+\mbox{\Hypertarget{classGameScene_ad75dd3af78f7896ae5c5f3e3a0254faf}\label{classGameScene_ad75dd3af78f7896ae5c5f3e3a0254faf}} 
+void {\bfseries setup\+Config} ()
+\item 
+\mbox{\Hypertarget{classGameScene_affa022fef2310973fd94cca45bd81026}\label{classGameScene_affa022fef2310973fd94cca45bd81026}} 
+void {\bfseries setup\+State} ()
+\item 
+\mbox{\Hypertarget{classGameScene_ace3b5e6356d6afccbc03c372ef42dcf7}\label{classGameScene_ace3b5e6356d6afccbc03c372ef42dcf7}} 
+void {\bfseries setup\+Items} ()
+\item 
+\mbox{\Hypertarget{classGameScene_ac6fba47edc47beef14d261309c34b91f}\label{classGameScene_ac6fba47edc47beef14d261309c34b91f}} 
+void {\bfseries start\+Timer} ()
+\item 
+\mbox{\Hypertarget{classGameScene_ae916cbb1661f27284cf8dc57a61a71cf}\label{classGameScene_ae916cbb1661f27284cf8dc57a61a71cf}} 
+void {\bfseries set\+User} (\hyperlink{classUser}{User} u)
+\item 
+\mbox{\Hypertarget{classGameScene_a844dfe614a55baa81b50919254ca65a8}\label{classGameScene_a844dfe614a55baa81b50919254ca65a8}} 
+void {\bfseries set\+App} (\hyperlink{classApp}{App} a)
+\item 
+\mbox{\Hypertarget{classGameScene_a09ceabce78eced843f301240427949a3}\label{classGameScene_a09ceabce78eced843f301240427949a3}} 
+void {\bfseries update\+App\+J\+Son} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classGameScene_ad8eee4df22a8d04711d33fa2fffa3dd7}\label{classGameScene_ad8eee4df22a8d04711d33fa2fffa3dd7}} 
+\hyperlink{classSyringeItem}{Syringe\+Item} $\ast$ {\bfseries syringe}
+\item 
+\mbox{\Hypertarget{classGameScene_ae49755440e3106cb697e6e60c8ad1d87}\label{classGameScene_ae49755440e3106cb697e6e60c8ad1d87}} 
+\hyperlink{classVirusItem}{Virus\+Item} $\ast$ {\bfseries virus}
+\item 
+\mbox{\Hypertarget{classGameScene_a9532ab6305df8a561ac77439e9f8d29f}\label{classGameScene_a9532ab6305df8a561ac77439e9f8d29f}} 
+\hyperlink{classstainItem}{stain\+Item} $\ast$ {\bfseries stain}
+\item 
+\mbox{\Hypertarget{classGameScene_ae8e37fd15578f29831216aa6fa4834b2}\label{classGameScene_ae8e37fd15578f29831216aa6fa4834b2}} 
+int {\bfseries small\+Score}
+\item 
+\mbox{\Hypertarget{classGameScene_a5fe4dd40f44ab47188f549abc4248984}\label{classGameScene_a5fe4dd40f44ab47188f549abc4248984}} 
+int {\bfseries medium\+Score}
+\item 
+\mbox{\Hypertarget{classGameScene_a831bb08d04f78c3a5978dc6adee61a03}\label{classGameScene_a831bb08d04f78c3a5978dc6adee61a03}} 
+int {\bfseries large\+Score}
+\item 
+\mbox{\Hypertarget{classGameScene_adbe70d57ee893ba54a30656f21dc8d4a}\label{classGameScene_adbe70d57ee893ba54a30656f21dc8d4a}} 
+int {\bfseries total\+Score}
+\item 
+\mbox{\Hypertarget{classGameScene_a8053efe9b6a43932a19274862721897e}\label{classGameScene_a8053efe9b6a43932a19274862721897e}} 
+int {\bfseries winning\+Score}
+\item 
+\mbox{\Hypertarget{classGameScene_a12b4075f437e2f0976fb9ac95886bd07}\label{classGameScene_a12b4075f437e2f0976fb9ac95886bd07}} 
+int {\bfseries misses}
+\item 
+\mbox{\Hypertarget{classGameScene_a2c68cc9d6431687e2457fed878df83ef}\label{classGameScene_a2c68cc9d6431687e2457fed878df83ef}} 
+int {\bfseries max\+Misses}
+\item 
+\mbox{\Hypertarget{classGameScene_aa12ad6e166209b81be8dd55bdde04e6f}\label{classGameScene_aa12ad6e166209b81be8dd55bdde04e6f}} 
+int {\bfseries final\+Score}
+\item 
+\mbox{\Hypertarget{classGameScene_aad6a61efba2e6f29f6fb65b8f7f7c609}\label{classGameScene_aad6a61efba2e6f29f6fb65b8f7f7c609}} 
+Q\+Label $\ast$ {\bfseries misses\+Label}
+\item 
+\mbox{\Hypertarget{classGameScene_a729b30b1b93afceb74d91da40fe59089}\label{classGameScene_a729b30b1b93afceb74d91da40fe59089}} 
+Q\+Label $\ast$ {\bfseries small\+Counter\+Label}
+\item 
+\mbox{\Hypertarget{classGameScene_a13624da08c031f94ebd0fe64d312d7ff}\label{classGameScene_a13624da08c031f94ebd0fe64d312d7ff}} 
+Q\+Label $\ast$ {\bfseries medium\+Counter\+Label}
+\item 
+\mbox{\Hypertarget{classGameScene_a22d4e25913436a471671f6df7f2b31b0}\label{classGameScene_a22d4e25913436a471671f6df7f2b31b0}} 
+Q\+Label $\ast$ {\bfseries large\+Counter\+Label}
+\item 
+\mbox{\Hypertarget{classGameScene_a11b39c8382f58ff70e211d1e266b9166}\label{classGameScene_a11b39c8382f58ff70e211d1e266b9166}} 
+Q\+Label $\ast$ {\bfseries total\+Counter\+Label}
+\item 
+\mbox{\Hypertarget{classGameScene_aa6875246b95bb05f0a92c6c5fcd974e7}\label{classGameScene_aa6875246b95bb05f0a92c6c5fcd974e7}} 
+Q\+Vector$<$ Q\+Pair$<$ int, int $>$ $\ast$ $>$ $\ast$ {\bfseries viruses}
+\item 
+\mbox{\Hypertarget{classGameScene_a47243a49c11fc0f864bc89ecbb2266fd}\label{classGameScene_a47243a49c11fc0f864bc89ecbb2266fd}} 
+Q\+Graphics\+Proxy\+Widget $\ast$ {\bfseries popup\+Item}
+\item 
+\mbox{\Hypertarget{classGameScene_af435d7691df3e0091cbcd4a642b5f401}\label{classGameScene_af435d7691df3e0091cbcd4a642b5f401}} 
+double {\bfseries syringe\+Direction}
+\item 
+\mbox{\Hypertarget{classGameScene_aaaa4e9cfdf957c2e048fa8ebdafec7b8}\label{classGameScene_aaaa4e9cfdf957c2e048fa8ebdafec7b8}} 
+bool {\bfseries syringe\+Shot}
+\item 
+\mbox{\Hypertarget{classGameScene_a6708bec5e51ca8ae55d4b3c4ab188565}\label{classGameScene_a6708bec5e51ca8ae55d4b3c4ab188565}} 
+bool {\bfseries syringe\+Side}
+\item 
+\mbox{\Hypertarget{classGameScene_a117065d5dfc251feec250f4c12034a28}\label{classGameScene_a117065d5dfc251feec250f4c12034a28}} 
+bool {\bfseries hit\+Virus}
+\item 
+\mbox{\Hypertarget{classGameScene_a59f5fb906fe807f52f91d1eec178c982}\label{classGameScene_a59f5fb906fe807f52f91d1eec178c982}} 
+double {\bfseries falling\+Rate}
+\item 
+\mbox{\Hypertarget{classGameScene_a53eb68698c6aba5a3e33e3d2d257ac0d}\label{classGameScene_a53eb68698c6aba5a3e33e3d2d257ac0d}} 
+int {\bfseries virus\+Type}
+\item 
+\mbox{\Hypertarget{classGameScene_a2135250d7ba76219e6f040650d4310db}\label{classGameScene_a2135250d7ba76219e6f040650d4310db}} 
+int {\bfseries waiting}
+\item 
+\mbox{\Hypertarget{classGameScene_a75ddad3ea4fc37e8422e922d8c09983d}\label{classGameScene_a75ddad3ea4fc37e8422e922d8c09983d}} 
+int {\bfseries killed\+Viruses}
+\item 
+\mbox{\Hypertarget{classGameScene_a8fbc3208cbd87d5d4cf8513ebc75f596}\label{classGameScene_a8fbc3208cbd87d5d4cf8513ebc75f596}} 
+int {\bfseries virus\+Counter}
+\item 
+\mbox{\Hypertarget{classGameScene_a0e9e06284acc33c9ca9461a47f2ef681}\label{classGameScene_a0e9e06284acc33c9ca9461a47f2ef681}} 
+Q\+Timer $\ast$ {\bfseries update\+Timer}
+\item 
+\mbox{\Hypertarget{classGameScene_a8fb317eb7fb9a33aca201a61c300922a}\label{classGameScene_a8fb317eb7fb9a33aca201a61c300922a}} 
+\hyperlink{classUser}{User} {\bfseries user}
+\item 
+\mbox{\Hypertarget{classGameScene_a33821265495463e9cccbcac4c91a0f6f}\label{classGameScene_a33821265495463e9cccbcac4c91a0f6f}} 
+\hyperlink{classApp}{App} {\bfseries app}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{gamescene_8h}{gamescene.\+h}\item 
+gamescene.\+cpp\end{DoxyCompactItemize}

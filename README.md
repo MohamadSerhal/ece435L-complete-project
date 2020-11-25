@@ -1,2 +1,2 @@
-# ece435L-complete-project
-Joins accounts, kill covid and othello together.
+# accounts-qt
+Accounts Management Application

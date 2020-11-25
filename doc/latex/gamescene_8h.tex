@@ -1,0 +1,46 @@
+\hypertarget{gamescene_8h}{}\section{gamescene.\+h File Reference}
+\label{gamescene_8h}\index{gamescene.\+h@{gamescene.\+h}}
+
+
+Game\+Scene\+::\+Game\+Scene, constructor calls the functions.  
+
+
+{\ttfamily \#include $<$Qt\+Widgets$>$}\newline
+{\ttfamily \#include $<$syringeitem.\+h$>$}\newline
+{\ttfamily \#include $<$virusitem.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}mediumvirusitem.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}largevirusitem.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stainitem.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}app.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}user.\+h\char`\"{}}\newline
+Include dependency graph for gamescene.\+h\+:
+% FIG 0
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classGameScene}{Game\+Scene}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Game\+Scene\+::\+Game\+Scene, constructor calls the functions. 
+
+Game\+Scene\+::update\+Scene, updates scene such like collision with virus, scores, misses and position of syringe.
+
+Game\+Scene\+::start\+Timer, starts a timer that signals the moment to update the screen.
+
+Game\+Scene\+::key\+Press\+Event, if user presses left key and the syringe is not in flight, make syringe\+Shot true.
+
+Game\+Scene\+::setup\+Items, adds the virus and syringe item to the scene. Also adds the score counters.
+
+Game\+Scene\+::setup\+State, sets up the initial states of the score and counters.
+
+Game\+Scene\+::setup\+Config, sets the config file that contains the position and types of the viruses.
+
+Game\+Scene\+::setup\+Background, sets the background image.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & \\
+\hline
+\end{DoxyParams}

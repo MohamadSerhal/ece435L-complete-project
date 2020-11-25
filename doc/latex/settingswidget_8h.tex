@@ -1,0 +1,84 @@
+\hypertarget{settingswidget_8h}{}\section{settingswidget.\+h File Reference}
+\label{settingswidget_8h}\index{settingswidget.\+h@{settingswidget.\+h}}
+
+
+Settings\+Widget\+::\+Settings\+Widget, constructor.  
+
+
+{\ttfamily \#include \char`\"{}howtoplaywindow.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$Q\+Widget$>$}\newline
+{\ttfamily \#include $<$Qt\+Widgets$>$}\newline
+{\ttfamily \#include \char`\"{}app.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}user.\+h\char`\"{}}\newline
+Include dependency graph for settingswidget.\+h\+:
+% FIG 0
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classSettingsWidget}{Settings\+Widget}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Settings\+Widget\+::\+Settings\+Widget, constructor. 
+
+Settings\+Widget\+::set\+User.
+
+Settings\+Widget\+::set\+App.
+
+Settings\+Widget\+::show\+Ready\+Button
+
+If the ready button isn\textquotesingle{}t shown yet, it adds it to the window.
+
+Settings\+Widget\+::click\+Ready.
+
+Settings\+Widget\+::click\+Hard
+
+When the hard button is clicked, it shows the difficulty description, sets the difficulty to hard and shows the ready button.
+
+Settings\+Widget\+::click\+Medium
+
+When the medium button is clicked, it shows the difficulty description, sets the difficulty to medium and shows the ready button.
+
+Settings\+Widget\+::click\+Easy
+
+When the easy button is clicked, it shows the difficulty description, sets the difficulty to easy and shows the ready button.
+
+Settings\+Widget\+::center\+Window
+
+Centering the window.
+
+Settings\+Widget\+::setup\+Connections
+
+Connecting easy button to its slot click\+Easy() Connecting medium button to its slot click\+Medium() Connecting hard button to its slot click\+Hard() Connecting the ready button to the click\+Ready() slot.
+
+Settings\+Widget\+::setup\+Layout
+
+Setting the layout.
+
+Settings\+Widget\+::setup\+Stylesheet
+
+Styling the push buttons.
+
+Settings\+Widget\+::setup\+Widgets, sets up widgets
+
+Sets the labels and push buttons.
+
+Settings\+Widget\+::setup\+Background, sets up backgroud
+
+sets the background picture.
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & Parent widget\\
+\hline
+\end{DoxyParams}
+constructor that sets the\+: background, widgets, style, layout and connections
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & \\
+\hline
+{\em u} & \\
+\hline
+\end{DoxyParams}

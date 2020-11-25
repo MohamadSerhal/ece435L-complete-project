@@ -1,0 +1,52 @@
+\hypertarget{othelloscene_8h}{}\section{othelloscene.\+h File Reference}
+\label{othelloscene_8h}\index{othelloscene.\+h@{othelloscene.\+h}}
+
+
+othello\+Scene\+::othello\+Scene, constuctor that sets the scene  
+
+
+{\ttfamily \#include \char`\"{}othello.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$Q\+Graphics\+Scene$>$}\newline
+{\ttfamily \#include $<$Qt\+Widgets$>$}\newline
+{\ttfamily \#include \char`\"{}greenplus.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}redchip.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}bluechip.\+h\char`\"{}}\newline
+Include dependency graph for othelloscene.\+h\+:
+% FIG 0
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classothelloScene}{othello\+Scene}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+othello\+Scene\+::othello\+Scene, constuctor that sets the scene 
+
+othello\+Scene\+::update\+Cells
+
+Updates the red and blue chips in the scene.
+
+othello\+Scene\+::add\+Playable\+Cells
+
+Adds the pixmap green plus items to the available positions.
+
+othello\+Scene\+::mouse\+Press\+Event
+
+othello\+Scene\+::update\+Scene
+
+Slot that gets called at timer timeout, sets the current player turn, calls update to the cells and to the available greenplus cells, and anounces winner when game is over.
+
+othello\+Scene\+::setup\+Update\+Timer
+
+Sets the timer that updates the scene at each timeout.
+
+othello\+Scene\+::setup\+Widgets, sets up the turn labels
+
+othello\+Scene\+::setup\+Background, sets the background image of the scene.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & When the player clicks left click on the mouse, it takes the coordinate of the mouse position when it was clicked and checks if position is valid to insert the player\textquotesingle{}s disk to the board. \\
+\hline
+\end{DoxyParams}

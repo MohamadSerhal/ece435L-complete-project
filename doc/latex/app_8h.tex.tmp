@@ -1,0 +1,87 @@
+\hypertarget{app_8h}{}\section{app.\+h File Reference}
+\label{app_8h}\index{app.\+h@{app.\+h}}
+
+
+App\+::\+App, constructor.  
+
+
+{\ttfamily \#include $<$Q\+Object$>$}\newline
+{\ttfamily \#include $<$Q\+Vector$>$}\newline
+{\ttfamily \#include \char`\"{}user.\+h\char`\"{}}\newline
+Include dependency graph for app.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classApp}{App}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+App\+::\+App, constructor. 
+
+App\+::get\+Highscore, gets the highscore of the given username.
+
+App\+::write, writes to json.
+
+App\+::read, reads the json to get user info.
+
+App\+::update\+User, updates the user in the Json after the score gets updated.
+
+App\+::get\+User, gets the user with the given username.
+
+App\+::signup, sign up user.
+
+App\+::login, log in user.
+
+App\+::set\+Users, sets the vector of users.
+
+App\+::get\+Users, returns the vector of users.
+
+App\+::read\+From\+J\+S\+ON, checks if the save.\+json file exists.
+
+\begin{DoxyReturn}{Returns}
+users
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em ausers} & \\
+\hline
+{\em username} & \\
+\hline
+{\em password} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if success
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if success
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em username} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em u} & \\
+\hline
+{\em json} & \\
+\hline
+{\em curr\+Username} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}

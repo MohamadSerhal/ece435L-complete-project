@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>sounds/intro-music.mp3</file>
+        <file>config/config.txt</file>
+        <file>imagesKillCovid/background.png</file>
+        <file>imagesKillCovid/covidMainMenu.jpeg</file>
+        <file>imagesKillCovid/intro-background.jpeg</file>
+        <file>imagesKillCovid/largeVirus.png</file>
+        <file>imagesKillCovid/laughingVirus.jpg</file>
+        <file>imagesKillCovid/mediumVirus.png</file>
+        <file>imagesKillCovid/stain.png</file>
+        <file>imagesKillCovid/syringe.png</file>
+        <file>imagesKillCovid/virus.png</file>
+        <file>imagesOthello/800by952grid.png</file>
+        <file>imagesOthello/blueChip90by90.png</file>
+        <file>imagesOthello/greenPlus90by90.png</file>
+        <file>imagesOthello/redChip90by90.png</file>
+    </qresource>
+</RCC>

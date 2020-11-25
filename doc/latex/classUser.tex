@@ -1,0 +1,83 @@
+\hypertarget{classUser}{}\section{User Class Reference}
+\label{classUser}\index{User@{User}}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classUser_a695a51d8dd28c07e517729c0e508941d}\label{classUser_a695a51d8dd28c07e517729c0e508941d}} 
+enum {\bfseries Gender} \{ {\bfseries Male}, 
+{\bfseries Female}, 
+{\bfseries Other}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classUser_a1c9ee5527f563fb644e0ad6bbab79f41}\label{classUser_a1c9ee5527f563fb644e0ad6bbab79f41}} 
+Q\+String {\bfseries get\+Username} () const
+\item 
+\mbox{\Hypertarget{classUser_a198d7bef8341a74dbeb5467291b064ec}\label{classUser_a198d7bef8341a74dbeb5467291b064ec}} 
+void {\bfseries set\+Username} (const Q\+String \&ausername)
+\item 
+\mbox{\Hypertarget{classUser_a0479f7f168b8ec592ecc1ea9f95d0868}\label{classUser_a0479f7f168b8ec592ecc1ea9f95d0868}} 
+Q\+String {\bfseries get\+Password} () const
+\item 
+\mbox{\Hypertarget{classUser_a51014133b1bddc6fb6f0149bbd3edf43}\label{classUser_a51014133b1bddc6fb6f0149bbd3edf43}} 
+void {\bfseries set\+Password} (const Q\+String \&apassword)
+\item 
+\mbox{\Hypertarget{classUser_a86d1ab75ca7c4ad813ae72b43297fb35}\label{classUser_a86d1ab75ca7c4ad813ae72b43297fb35}} 
+Q\+String {\bfseries get\+First\+Name} () const
+\item 
+\mbox{\Hypertarget{classUser_a039cf261172ac2741d4d51306b6e3bb9}\label{classUser_a039cf261172ac2741d4d51306b6e3bb9}} 
+void {\bfseries set\+First\+Name} (const Q\+String \&afirst\+Name)
+\item 
+\mbox{\Hypertarget{classUser_a9864f7521f7f0bf8132e2464e9df7a02}\label{classUser_a9864f7521f7f0bf8132e2464e9df7a02}} 
+Q\+String {\bfseries get\+Last\+Name} () const
+\item 
+\mbox{\Hypertarget{classUser_a6041d4ae710e6876d3a15accf2a4b08f}\label{classUser_a6041d4ae710e6876d3a15accf2a4b08f}} 
+void {\bfseries set\+Last\+Name} (const Q\+String \&alast\+Name)
+\item 
+\mbox{\Hypertarget{classUser_a8d83a53d7e3487167b98768bd2d09715}\label{classUser_a8d83a53d7e3487167b98768bd2d09715}} 
+Q\+Date {\bfseries get\+Date\+Of\+Birth} () const
+\item 
+\mbox{\Hypertarget{classUser_ae8fcd2565331f113e37287789d5f44d2}\label{classUser_ae8fcd2565331f113e37287789d5f44d2}} 
+void {\bfseries set\+Date\+Of\+Birth} (const Q\+Date \&adate\+Of\+Birth)
+\item 
+\mbox{\Hypertarget{classUser_a375a79c39b1706939e0449d06b842f1f}\label{classUser_a375a79c39b1706939e0449d06b842f1f}} 
+Gender {\bfseries get\+Gender} () const
+\item 
+\mbox{\Hypertarget{classUser_a89c2e557c37a2c3243d8686f2cc106af}\label{classUser_a89c2e557c37a2c3243d8686f2cc106af}} 
+void {\bfseries set\+Gender} (Gender agender)
+\item 
+\mbox{\Hypertarget{classUser_ae0c725301120ba11ad6ecc3cd5a31fe4}\label{classUser_ae0c725301120ba11ad6ecc3cd5a31fe4}} 
+Q\+Pixmap {\bfseries get\+Profile\+Picture} () const
+\item 
+\mbox{\Hypertarget{classUser_a41b2a36ee7375bda92e1bb9409dbba1f}\label{classUser_a41b2a36ee7375bda92e1bb9409dbba1f}} 
+void {\bfseries set\+Profile\+Picture} (const Q\+Pixmap \&aprofile\+Picture)
+\item 
+\mbox{\Hypertarget{classUser_a49daa06b0146027bc8759fdc3924ffd6}\label{classUser_a49daa06b0146027bc8759fdc3924ffd6}} 
+Q\+Vector$<$ int $>$ {\bfseries get\+Scores} () const
+\item 
+\mbox{\Hypertarget{classUser_af411720e363e1b2cf7b56dbd79cdbb84}\label{classUser_af411720e363e1b2cf7b56dbd79cdbb84}} 
+void {\bfseries set\+Scores} (const Q\+Vector$<$ int $>$ \&ascores)
+\item 
+\mbox{\Hypertarget{classUser_afd5f6a0639eb998b154ba0db51cbea62}\label{classUser_afd5f6a0639eb998b154ba0db51cbea62}} 
+void {\bfseries update\+Scores} (int n)
+\item 
+\mbox{\Hypertarget{classUser_ab12a51628183409d7ca7254fc67d7fbf}\label{classUser_ab12a51628183409d7ca7254fc67d7fbf}} 
+void {\bfseries read} (const Q\+Json\+Object \&json)
+\item 
+\mbox{\Hypertarget{classUser_af5388978540e145bacbbbf5859461ac5}\label{classUser_af5388978540e145bacbbbf5859461ac5}} 
+void {\bfseries write} (Q\+Json\+Object \&json) const
+\item 
+\mbox{\Hypertarget{classUser_add9b503c80e42dae4c2a48dfd4f10d52}\label{classUser_add9b503c80e42dae4c2a48dfd4f10d52}} 
+Q\+String {\bfseries get\+User\+Scores} ()
+\item 
+\mbox{\Hypertarget{classUser_a2c6070a1c31020a6beae27e4fe4f4724}\label{classUser_a2c6070a1c31020a6beae27e4fe4f4724}} 
+int {\bfseries get\+Highscore} ()
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{user_8h}{user.\+h}\item 
+user.\+cpp\end{DoxyCompactItemize}

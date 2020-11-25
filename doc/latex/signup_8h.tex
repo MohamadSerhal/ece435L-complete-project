@@ -1,0 +1,56 @@
+\hypertarget{signup_8h}{}\section{signup.\+h File Reference}
+\label{signup_8h}\index{signup.\+h@{signup.\+h}}
+
+
+sign\+Up\+::sign\+Up, constructor sets the widgets, layouts and connections  
+
+
+{\ttfamily \#include $<$Q\+Object$>$}\newline
+{\ttfamily \#include $<$Q\+Widget$>$}\newline
+{\ttfamily \#include $<$Qt\+Widgets$>$}\newline
+{\ttfamily \#include $<$Q\+File\+Dialog$>$}\newline
+{\ttfamily \#include \char`\"{}app.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}user.\+h\char`\"{}}\newline
+Include dependency graph for signup.\+h\+:
+% FIG 0
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classsignUp}{sign\+Up}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+sign\+Up\+::sign\+Up, constructor sets the widgets, layouts and connections 
+
+sign\+Up\+::signup, signs up the user
+
+sign\+Up\+::invalid, creates invalid window
+
+sign\+Up\+::upload\+\_\+picture, user uploads profile pic
+
+lets user browse the computer to upload pic, if none chosen uploads a generic icon
+
+sign\+Up\+::login\+\_\+instead, slot for user to go back to login screen
+
+sign\+Up\+::validate\+\_\+password, checks if pass word is valid.
+
+sign\+Up\+::validate\+\_\+\+Username, checks if the username is valid
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool if a Username has a space or is already taken, returns false
+
+bool if a password has size$<$8, or doesnt have atleast\+: one number, one upper letter and one lower letter, returns false
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em label} & \\
+\hline
+{\em error\+Code} & creates invalid window depending on which label and error code the user got \\
+\hline
+\end{DoxyParams}

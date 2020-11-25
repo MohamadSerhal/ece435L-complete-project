@@ -1,0 +1,73 @@
+\hypertarget{user_8h}{}\section{user.\+h File Reference}
+\label{user_8h}\index{user.\+h@{user.\+h}}
+
+
+User\+::set\+Scores, setter of user scores.  
+
+
+{\ttfamily \#include $<$Q\+Json\+Object$>$}\newline
+{\ttfamily \#include $<$Q\+String$>$}\newline
+{\ttfamily \#include $<$Q\+Date$>$}\newline
+{\ttfamily \#include $<$Q\+Image$>$}\newline
+{\ttfamily \#include $<$Q\+Map$>$}\newline
+{\ttfamily \#include $<$Q\+Pixmap$>$}\newline
+{\ttfamily \#include $<$Q\+Json\+Array$>$}\newline
+{\ttfamily \#include $<$Qt\+Algorithms$>$}\newline
+Include dependency graph for user.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classUser}{User}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+User\+::set\+Scores, setter of user scores. 
+
+User\+::get\+Highscore, getter for a user\textquotesingle{}s highscore.
+
+User\+::get\+User\+Scores, getter for a user\textquotesingle{}s scores.
+
+User\+::write, writes to J\+Son the info of a user.
+
+User\+::read, reads user info from J\+Son.
+
+pixmap\+From, takes a J\+Son value and returns the corresponding picture.
+
+json\+Val\+From\+Pixmap, encodes the profile pic to save it as J\+Son
+
+User\+::update\+Scores, updates the score of a user.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ascores} & \\
+\hline
+{\em n} & \\
+\hline
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+json
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em val} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+Pixmap
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em json} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+user scores
+
+user highscores 
+\end{DoxyReturn}

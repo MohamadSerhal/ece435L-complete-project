@@ -1,0 +1,30 @@
+digraph "user.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node9 [label="user.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="app.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$app_8h.html",tooltip="App::App, constructor. "];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node11 [label="gamescene.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gamescene_8h.html",tooltip="GameScene::GameScene, constructor calls the functions. "];
+  Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node12 [label="gameview.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gameview_8h.html",tooltip="GameView::GameView constructor. "];
+  Node10 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node13 [label="highscoreswindow.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$highscoreswindow_8h.html",tooltip="highscoresWindow::highscoresWindow constructor "];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node14 [label="login.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$login_8h.html",tooltip="login::login, login window adds the widgets, layout and connections "];
+  Node10 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node15 [label="introwidget.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$introwidget_8h.html",tooltip="IntroWidget::IntroWidget. "];
+  Node10 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node16 [label="settingswidget.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$settingswidget_8h.html",tooltip="SettingsWidget::SettingsWidget, constructor. "];
+  Node10 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node10 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node17 [label="signup.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$signup_8h.html",tooltip="signUp::signUp, constructor sets the widgets, layouts and connections "];
+  Node9 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+}
