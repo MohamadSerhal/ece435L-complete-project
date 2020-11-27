@@ -122,6 +122,7 @@ void login::signUpInstead(){
     signUp* signUpWindow = new signUp();
     signUpWindow->show();
     this->close();
+    this->~login();
 }
 
 /**
@@ -135,6 +136,7 @@ void login::highscoresPage(int code, User user){
     highscoresWindow* highWindow = new highscoresWindow(app, code, user);
     highWindow->show();
     this->close();
+    this->~login();
 }
 
 

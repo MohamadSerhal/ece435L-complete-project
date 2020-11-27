@@ -147,6 +147,7 @@ void IntroWidget::clickPlay() {
     settings->setUser(user);
     settings->show();
     this->close();
+    this->~IntroWidget();
 }
 
 

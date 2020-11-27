@@ -172,6 +172,7 @@ void highscoresWindow::clickKillCovid(){
     i->setUser(useri);
     i->show();
     this->close();
+    this->~highscoresWindow();
 }
 
 
@@ -183,5 +184,6 @@ void highscoresWindow::clickOrthello(){
     othelloView* view = new othelloView();
     view->show();
     this->close();
+    this->~highscoresWindow();
 }
 

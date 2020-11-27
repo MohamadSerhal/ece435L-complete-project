@@ -208,6 +208,7 @@ void SettingsWidget::clickReady(){
     view->setUser(useri);
     view->show();
     this->close();
+    this->~SettingsWidget();
 }
 
 

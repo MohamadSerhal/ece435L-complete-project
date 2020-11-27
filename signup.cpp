@@ -219,6 +219,7 @@ void signUp::login_instead(){
     login* log_window = new login();
     log_window->show();
     this->close();
+    this->~signUp();
 }
 
 

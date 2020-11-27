@@ -17,6 +17,7 @@ othelloView::othelloView()
     setScene(scene);
 
     centerWindow();
+
 }
 
 /**
