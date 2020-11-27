@@ -48,7 +48,7 @@ void othelloScene::setupWidgets(){
 void othelloScene::setupUpdateTimer(){
     updateTimer = new QTimer();
     QObject::connect(updateTimer, SIGNAL(timeout()), this, SLOT(updateScene()));
-    updateTimer->start(100);
+    updateTimer->start(20);
 }
 
 
@@ -149,6 +149,7 @@ void othelloScene::addPlayableCells(){
     if (listOfPlayableCells.size()!=0){
         for (int i = 0  ; i<listOfPlayableCells.size(); i++){
             this->removeItem(listOfPlayableCells[i]);
+            listOfPlayableCells.erase(listOfPlayableCells.begin()+i);
         }
     }
 
@@ -177,6 +178,7 @@ void othelloScene::updateCells(){
     if (listOfUsedCells.size()!=0){
         for (int i = 0  ; i<listOfUsedCells.size(); i++){
             this->removeItem(listOfUsedCells[i]);
+            listOfUsedCells.erase(listOfUsedCells.begin()+i);
         }
     }
     int xcoor;
